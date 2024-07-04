@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    gap: 10px;
+    
+    flex-direction: column;
+}
+h1{
+ flex: 1;
+}
+h2{
+  flex: 0.5;
+}
+p{
+    flex: 3;
+}
+.one {
+
+    background-color: yellow;
+}
+.note {
+
+    background-color: aqua;
+}

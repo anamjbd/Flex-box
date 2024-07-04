@@ -1,0 +1,15 @@
+ .container {
+    display: flex;
+    /* it basically covers 100% of width. */
+    gap: 10px;
+    background-color: blue;
+    flex-direction: column;
+}
+.one {
+
+    background-color: yellow;
+}
+.note {
+
+    background-color: aqua;
+} 

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+    
+}
+/* .one{
+    flex-basis: 100px;
+}
+.two{
+    flex-basis: 100px;
+}
+.three{
+    flex-basis: 50px;
+} */
+.one, .two, .three  {
+    flex-basis: 100px;
+}
