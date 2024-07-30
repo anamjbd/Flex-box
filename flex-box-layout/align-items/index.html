@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            /* it aligns items on cross-axis */
+            flex-wrap: nowrap;
+            height: 100vh;
+            border: 10px solid ;
+            
+            
+
+        }
+        .mac {
+            background-color: brown;
+            
+        }
+        .one {
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <h1>Align Items</h1>
+    <div class="container">
+        <p>Blue</p>
+        <p>Yellow</p>
+        <p class="one">Green</p>
+        <p class="mac">Purple</p>
+        <p>Black</p>
+        <p>White</p>
+
+    </div>
+</body>
+</html>

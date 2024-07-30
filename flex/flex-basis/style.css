@@ -1,7 +1,7 @@
 .container{
     display: flex;
     gap: 20px;
-    flex-direction: column;
+    flex-direction: row;
     
     
 }
@@ -9,11 +9,11 @@
     flex-basis: 100px;
 }
 .two{
-    flex-basis: 100px;
+    flex-basis: 200px;
 }
 .three{
     flex-basis: 50px;
-} */
+}  */
  /* flex basis wraps the content according to the screen. */
 .one, .two, .three  {
     flex-basis: 100px;
